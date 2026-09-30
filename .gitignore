@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+.cache/
+.env
+.env.*
+!.env.example
+.modal.toml
+results/**
+!results/README.md
+
+
+# Private study/application planning notes.
+AGENTS.md
+docs/PROGRESS.md
+docs/RESOURCES.md
+docs/STUDY_PLAN.md
+docs/TEMPLATES.md
