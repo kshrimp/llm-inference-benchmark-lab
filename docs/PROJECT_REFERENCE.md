@@ -311,7 +311,7 @@ Acceptance: tokenization, actual work, defaults, and lifecycle/cache differences
 
 ### Progress protocol
 
-Complete M0–M3 in order; optional extensions follow required completion. Update the continuation guide with commands, outcomes, spend, blockers, and the next bounded action. Create implementation directories only when needed. No CLI is promised before implementation. Use scheduled practice time and record remaining work instead of treating the three-week calendar as engineering acceptance.
+Complete M0–M3 in order; optional extensions follow required completion. Update the continuation guide with commands, outcomes, spend, blockers, and the next bounded action. Create implementation directories only when needed. No CLI is promised before implementation. Use scheduled practice time and record remaining work instead of treating the sprint calendar in the study plan as engineering acceptance.
 
 <a id="report"></a>
 ## Report and demonstration
