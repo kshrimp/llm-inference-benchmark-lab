@@ -14,10 +14,9 @@ A bounded serving case study for measuring LLM inference behavior with SGLang on
 
 | Path | Purpose |
 | --- | --- |
-| `docs/PROJECT_REFERENCE.md` | Technical scope, methodology, data contracts, and acceptance criteria |
 | `docs/ENVIRONMENT.md` | Local `uv` setup, package management, and Modal environment notes |
 | `results/README.md` | Guidance for storing reproducible run artifacts |
-| `get_started.py` | Small local environment check |
+| `get_started.py` | Small Modal CPU smoke check |
 
 ## Status
 
@@ -29,7 +28,7 @@ Use `uv` to recreate the local Python environment from `pyproject.toml` and `uv.
 
 ```bash
 uv sync
-uv run python get_started.py
+uv run modal run get_started.py  # or: modal run get_started.py (with the venv activated)
 ```
 
 See `docs/ENVIRONMENT.md` for package-management workflow and the distinction between the local venv and the remote Modal image.
